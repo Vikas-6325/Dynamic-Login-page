@@ -1,11 +1,10 @@
-/* General reset for margins and paddings */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body styling */
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -15,7 +14,6 @@ body {
     background-color: #f4f7fc;
 }
 
-/* Container for the login form */
 #login-container {
     display: flex;
     justify-content: center;
@@ -24,7 +22,6 @@ body {
     height: 100%;
 }
 
-/* Styling for the form */
 form {
     background-color: #fff;
     padding: 20px;
@@ -34,14 +31,12 @@ form {
     max-width: 400px;
 }
 
-/* Form heading */
 h2 {
     text-align: center;
     margin-bottom: 20px;
     font-size: 1.8rem;
 }
 
-/* Label styling */
 label {
     display: block;
     margin-bottom: 8px;
@@ -49,7 +44,6 @@ label {
     color: #333;
 }
 
-/* Input field styling */
 input {
     width: 100%;
     padding: 10px;
@@ -65,7 +59,6 @@ input:focus {
     border-color: #007bff;
 }
 
-/* Button styling */
 button {
     width: 100%;
     padding: 10px;
@@ -77,12 +70,10 @@ button {
     cursor: pointer;
 }
 
-/* Button hover effect */
 button:hover {
     background-color: #0056b3;
 }
 
-/* Responsive Design */
 @media (max-width: 600px) {
     form {
         padding: 15px;
